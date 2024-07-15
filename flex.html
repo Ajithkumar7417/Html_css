@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      #main{
+        width: 400px;
+        height: 200px;
+        border: 1px solid gainsboro;
+        display: flex;
+        /* flex-direction:row; */
+      }
+      #main div{
+        flex-basis: 50px;
+      }
+      #main :nth-of-type(2){
+        /* flex-basis: 100px; */
+        flex-grow:10;
+        /* flex-shrink:10; */
+      }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, explicabo.</p>
+    <div id="main">
+        <div style="background-color: aqua;">01</div>
+        <div style="background-color: aquamarine;">02</div>
+        <div style="background-color: bisque;">03</div>
+         </div>
+    <div id="main div"></div>
+    <div class="mai"></div>
+</body>
+</html>

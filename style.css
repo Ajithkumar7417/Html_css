@@ -1,0 +1,64 @@
+
+div{
+   border:1px solid black;
+   height: 100px;
+   width: 300px;
+   background-color:black;
+   color:red;
+}
+  #box1{
+     float:left;
+     background-color: pink;
+
+  }
+    #box2{
+      float:right;
+      background-color:red;
+    }
+    
+
+
+      #outer{
+         margin:auto;
+         width: 600px;
+         background-color:cyan;
+
+      }
+        #layout{
+              margin:30pxauto;
+              width:500px;
+              height: 100px;
+              background-color:red;
+              
+        }
+         div{
+            border:1px solid black;
+            padding: 5px;
+         }
+         #div,#d1,#d2,#d3{
+                     width: 100px;
+                     height: 100px;
+                     color: white;
+                  
+         }
+         #d1{
+            position:fixed;
+            left: 10px;
+            top:20px;
+            background:blue;
+            
+         }
+         #d2{
+            background-color: orange;
+            position:absolute;
+            top:50px;
+            left:30x;
+
+         }
+         #d3{
+            background-color:green ;
+            position:relative;
+            top:10px;
+            left: 220px;
+         }
+           

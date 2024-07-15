@@ -1,0 +1,31 @@
+table,tr,td{
+    border: none;
+    border-collapse: collapse;
+    border:2px solid whitesmoke;
+    height: 40px;
+    width: 80px;
+    align-items: center;
+    margin-top: 150px;
+}
+
+
+#green{
+    background-color:brown;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color:brown;
+}
+.violet{
+    background-color: yellow;
+}
+.red{
+    background-color: red;
+}
+.vl{
+    background-color:yellow;
+    width: 20px;
+    height: 10px;
+}

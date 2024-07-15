@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            grid-template-rows: repeat(8, 1fr);
+            gap: 2px;
+            width: 600px;
+            height: 600px;
+        }
+        .block {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            color: black;
+        }
+        .block-1 {
+             grid-column: span 2;
+              grid-row: span 1;
+               background-color: red;
+             }
+        .block-2 {
+             grid-column: span 1;
+              grid-row: span 1;
+               background-color: yellow;
+             }
+        .block-3 { 
+            grid-column: span 3;
+             grid-row: span 1;
+              background-color: green;
+             }
+        .block-4 { 
+            grid-column: span 1;
+             grid-row: span 2;
+              background-color: cyan; 
+            }
+        .block-5 { 
+            grid-column: span 2;
+             grid-row: span 1;
+              background-color: blue; 
+            }
+        .block-6 { grid-column: span 2; grid-row: span 1; background-color: black; }
+        .block-7 { grid-column: span 2; grid-row: span 2; background-color: purple; }
+        .block-8 { grid-column: span 4; grid-row: span 2; background-color: red; }
+        .block-9 { grid-column: span 1; grid-row: span 1; background-color: yellow; }
+        .block-10 { grid-column: span 1; grid-row: span 1; background-color: yellow; }
+        .block-11 { grid-column: span 3; grid-row: span 1; background-color: green; }
+        .block-12 { grid-column: span 3; grid-row: span 2; background-color: blue; }
+        .block-13 { grid-column: span 4; grid-row: span 4; background-color: blue; }
+        .block-14 { grid-column: span 2; grid-row: span 1; background-color: purple; }
+        .block-15 { grid-column: span 2; grid-row: span 1; background-color: red; }
+        .block-16 { grid-column: span 2; grid-row: span 2; background-color: yellow; }
+        .block-17 { grid-column: span 3; grid-row: span 1; background-color: yellow; }
+        .block-18 { grid-column: span 3; grid-row: span 1; background-color: green; }
+    </style>
+</head>
+<body>
+    <table>
+    <center>
+            <div class="container">
+        <div class="block block-1">1</div>
+        <div class="block block-2">2</div>
+        <div class="block block-3">3</div>
+        <div class="block block-4">4</div>
+        <div class="block block-5">5</div>
+        <div class="block block-6">6</div>
+        <div class="block block-7">7</div>                  
+        <div class="block block-8">8</div>
+        <div class="block block-9">9</div>
+        <div class="block block-10">10</div>
+        <div class="block block-11">11</div>
+        <div class="block block-12">12</div>
+        <div class="block block-13">13</div>
+        <div class="block block-14">14</div>
+        <div class="block block-15">15</div>
+        <div class="block block-16">16</div>
+        <div class="block block-17">17</div>
+        <div class="block block-18">18</div>
+    </div>
+</center>
+</table>
+</body>
+</html>

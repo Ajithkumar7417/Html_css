@@ -1,0 +1,100 @@
+table{
+    
+    border-collapse: collapse;
+}
+.space{
+    border: none;
+    color: rgb(226, 13, 13);
+    font-style: oblique;
+    background-image: url(/Cssintro/Sally\ Carrera1.jpg);
+    background-size: 151px 140px;
+    background-repeat: no-repeat;
+    padding-bottom:0px ;
+    padding-top: 100px;
+    padding-right:-2% ;
+    text-align: right;
+}
+#space1{
+    border: none;
+    color: rgb(228, 13, 13);
+    font-style: oblique;
+    background-image: url(/Cssintro/Sally\ Carrera2.jpg);
+    background-size:168px 140px;
+    background-repeat: no-repeat;
+    padding-bottom:0px ;
+    padding-top: 120px;
+    padding-right:7% ;
+    text-align: right;
+}
+.space2{
+    border: none;
+    color: rgb(103, 46, 46);
+    font-style: oblique;
+    background-image: url(/Cssintro/Doc\ Hudson1.jpg);
+    background-size: 149px 139px;
+    background-repeat: no-repeat;
+    padding-bottom:0px ;
+    padding-top: 132px;
+    padding-right:12% ;
+    text-align: right;
+}
+#space3{
+    border: none;
+    color: rgb(103, 46, 46);
+    font-style: oblique;
+    background-image: url(/Cssintro/Doc\ Hudson2.jpg);
+    background-size: 154px 140px;
+    background-repeat: no-repeat;
+    padding-bottom:13px ;
+    padding-top: 120px;
+    padding-right:7% ;
+    text-align: right;
+}
+.cars{
+    background-image: url(/Cssintro/cars3.jpg);
+    background-size: 121px 139px;
+    background-repeat: no-repeat;
+}
+.Mater{
+    color: lightblue;
+    padding-bottom:0px ;
+    padding-top: 100px;
+    padding-right:0% ;
+    background-image: url(/Cssintro/Mater.jpg);
+    background-size: 131px 109px;
+    background-repeat: no-repeat;
+    text-align: right;
+}
+#Dinoco{
+    color: gray;
+     padding-bottom: 0%;
+     padding-top: 23%;
+    background-image: url(/Cssintro/DINOCO.jpg);
+  background-size: 183px 100px;
+  background-repeat: no-repeat;
+}
+.Lightning{
+    color: gold;
+    padding-bottom:0px ;
+    padding-top: 100px;
+    padding-left: 0%;
+    padding-right: 0%;
+    background-image: url(/Cssintro/Lightning\ Mcqueen.jpg);
+    background-size: 135px 106px;
+    background-repeat: no-repeat;
+}
+.Mack{
+    color: orange;
+    padding-bottom:0px ;
+    padding-top: 100px;
+    padding-right:0% ;
+    background-image: url(/Cssintro/MACK.jpg);
+    background-size:124px 101px;
+    background-repeat: no-repeat;
+}
+.CARS{
+    color: turquoise;
+    background-image: url(/Cssintro/Cars_2_Poster.jpg);
+    background-size: 121px 396px;
+    background-repeat: no-repeat;   
+}

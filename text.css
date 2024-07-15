@@ -1,0 +1,13 @@
+.h1{
+    text-transform: capitalize;
+}
+.text{
+    color: blue;
+    letter-spacing: 5px;
+    word-spacing: 50px;
+    line-height: 30px;
+    text-align:left;
+    text-decoration: underline;
+    text-indent:0%;
+    text-transform: capitalize;
+}
